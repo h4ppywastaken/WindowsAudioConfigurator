@@ -4,6 +4,7 @@ Powershell Script to configure Audio Devices on Windows (Root &amp; Endpoint Dev
 ## Audio Configurator
 
 This script will help you configure your audio devices on Windows.
+
 When you enable/disable audio root devices it will:
  - Enable/Disable them in the device manager on driver level
 

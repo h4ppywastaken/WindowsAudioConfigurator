@@ -1,6 +1,8 @@
 # WindowsAudioConfigurator
 Powershell Script to configure Audio Devices on Windows (Root &amp; Endpoint Devices on Driver &amp; Software Level)
 
+Tested on Windows 10 Pro N 21H1
+
 ## Audio Configurator
 
 This script will help you configure your audio devices on Windows.

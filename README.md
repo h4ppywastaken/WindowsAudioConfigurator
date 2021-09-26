@@ -19,16 +19,15 @@ This script performs the following steps:
  - Enable/Disable audio root devices
 
  - In the following steps the script asks for input/output endpoints seperately:
-     + List all audio endpoints and ask for enable/disable configuration
-        --> If you disabled a device in the previous steps
-            the audio endpoints of that device will not be available anymore
+     - List all audio endpoints and ask for enable/disable configuration
+        + If you disabled a device in the previous steps the audio endpoints of that device will not be available anymore
 
-     + List all audio endpoints and ask for default device configuration
+     - List all audio endpoints and ask for default device configuration
 
-     + List all audio endpoints and ask for exclusive mode configuration
-        --> This setting corresponds to the audio settings:
-             > "Allow applications to take exclusive control of this device"
-             > "Give exclusive mode applications priority"
+     - List all audio endpoints and ask for exclusive mode configuration
+        + This setting corresponds to the audio settings:
+           + "Allow applications to take exclusive control of this device"
+           + "Give exclusive mode applications priority"
 
 
 ## Regarding NVIDIA audio root device

@@ -40,3 +40,6 @@ prevent the NVIDIA audio device being enabled again
 when you update your graphics card drivers.
 If you want the NVIDIA device to show up again you must
 MANUALLY enabled this system device in your device manager again.
+
+# License
+This project is licensed under the MIT License. See LICENSE file for details.

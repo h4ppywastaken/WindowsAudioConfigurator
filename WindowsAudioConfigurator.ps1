@@ -564,5 +564,18 @@ ForEach($ad in $( $outputdevices + $inputdevices) )
     }
 }
 
+
+##########################################################################
+### Windows Audio ducking configuration
+##########################################################################
+$confirm = "y"
+Read-Host "Disable Windows Audio Ducking? (Y/n)"
+if($confirm.ToLower() -eq "y")
+{
+    Write-Host "Disabling Windows Audio Ducking..."
+    $regpath = "HKCU:\Software\Microsoft\Multimedia\Audio"
+    Set-ItemProperty -path $regpath -Name 'UserDuckingPreference' -Value 3
+}
+
 Write-Host "Finished!"
 Read-Host "Press ENTER to exit"
